@@ -1,0 +1,41 @@
+.banner {
+  display: block;
+  background-size: cover;
+  background-position: center ;
+  align-items: center;
+  padding: 100px 0px;
+}
+
+.container {
+width: 700px;
+margin: auto;
+}
+
+.title {
+  align-items: center;
+  color: white;
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.7);
+  margin-bottom: 0px;
+}
+
+.paragraph {
+  color: white;
+  margin-top: 0px;
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.7);
+}
+
+.starting-button {
+  justify-content: center;
+  text-decoration: none;
+  color: grey;
+  display: flex;
+  width: 100px;
+  background-color: white;
+  border: 1px solid grey;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.starting-button:hover {
+  background-color: lightgray;
+}

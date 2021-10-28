@@ -1,0 +1,28 @@
+.mastercard {
+display: flex;
+justify-content: space-around;
+}
+
+.cards {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0 0 5px rgb(230 230 230);
+  margin: 40px;
+  padding: 15px;
+}
+
+.cards img {
+  height: 250px;
+  width: 200px;
+  object-fit: cover;
+}
+
+.cards > h2 {
+  margin-bottom: 0px;
+}
+
+.cards > p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
